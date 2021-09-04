@@ -1,0 +1,561 @@
+:root{
+    --gradient:#009688;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background:#009688;
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+#preloader{
+  background: #fff url(https://cdn.dribbble.com/users/1186261/screenshots/3718681/_______.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+html::-webkit-scrollbar{
+    width:12px;
+}
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#009688);
+    border-radius: 6px;
+}
+html::-webkit-scrollbar-thumb:hover{
+  background:linear-gradient(transparent,#14d8f1);
+}
+html::-webkit-scrollbar-track{
+    background:#333;
+}
+
+
+
+
+section{
+    min-height: 100vh;
+    padding:1rem 7%;
+    padding-top:6rem;
+}
+
+.btn{
+    padding:.7rem 3rem;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--gradient);
+    border-radius: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    top:-1rem; left:-100%;
+    background:#fff9;
+    height:150%;
+    width:20%;
+    transform: rotate(25deg);
+    z-index: -1;
+}
+
+.btn:hover::before{
+    transition: .3s linear;
+    left: 120%;
+}
+
+.heading{
+    color:#444;
+    padding:1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    padding:1.5rem 7%;
+    background:#333;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+}
+header .logo span{
+    color: var(--gradient);
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+nav {
+    align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a{
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover {
+  color:var(--gradient);
+  font-size: 2.3rem;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  border-radius: .5rem;
+  background-color: var(--gradient);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+header #menu{
+    font-size: 3rem;
+    color:#fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background:url(img/home.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    
+}
+.heading{
+  text-align: center;
+  padding:2.5rem 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.heading span{
+  font-size: 3.5rem;
+  background:rgba(7, 230, 200, 0.2);
+  color:#009688;
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+}
+.heading span.space{
+  background:none;
+}
+
+.home h1{
+    font-size: 6rem;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(7, 3, 3);
+    border-radius: 3px ;
+    text-transform: uppercase;
+
+}
+
+.home p{
+    color: rgb(151, 136, 136);
+    padding:1rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 0 3rem 5rem rgba(0,0,0,.3);
+    border-radius: .9rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+button{
+  position: relative;
+  height: 60px;
+  width: 200px;
+  margin: 0 35px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+button:first-child:hover{
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+button:last-child:hover{
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  background-size: 400%;
+}
+button:first-child:before,
+button:last-child:before{
+  content: '';
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 50px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+button:first-child:hover:before,
+button:last-child:hover:before{
+  opacity: 1;
+  z-index: -1;
+}
+button:hover{
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+@keyframes glow {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
+}
+
+/*services*/
+
+
+.services{
+  position: relative;
+  max-width: 100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent 70%,
+  #0009);
+}
+
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  margin: 0 20px;
+  min-height: 350px;
+  background: #fff;
+}
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-left{
+  background-image: none;
+}
+.services .card{
+  position: relative;
+  width:100%;
+  margin: 0 auto;
+  background: #333;
+  padding: 60px 40px;
+  text-align: center; 
+  overflow: hidden;
+}
+.services .card .layer{
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#03a9f4, #e91ee3);
+  z-index: 1;
+  transition: 0.5s;
+}
+.services .card:hover .layer{
+  top: 0;
+}
+.services .card .content{
+  position: relative;
+  z-index: 2;
+}
+.services .card .content p{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.services .card .content .imgBx{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.services .card .content h2{
+  font-size: 18px;
+  color: #fff;
+}
+.services .card .content h2 span{
+  color: #03a9f4;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.services .card:hover .content h2 span{
+  color: #fff;
+}
+#contact{
+  background: url(img/bg.png)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+form{
+  background: rgba(27,31,34,0.80);
+  width: 640px;
+  margin: 50px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 55px 30px;
+}
+
+
+
+form .half{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+}
+
+form .full textarea{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+  color: white;
+}
+
+form .action input[type="submit"]{
+  background: white;
+  color: black;
+}
+
+
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+  background: rgba(255,255,255,0.075);
+}
+
+
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS*/
+
+@media (max-device-width:768px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header #menu{
+        display: block;
+    }
+
+    header .navbar{
+        position: fixed;
+        top:-120%; left:0;
+        width:100%;
+        background:#444;
+    }
+
+    header .navbar ul{
+        flex-flow: column;
+        padding:2rem 0;
+    }
+
+    header .navbar ul li{
+        margin:1.5rem 0;
+        text-align: center;
+        width:100%;
+    }
+
+    header .navbar ul li a{
+        font-size: 2.5rem;
+        display: block;
+    }
+
+    header .navbar ul li a.active,
+    header .navbar ul li a:hover{
+        color:#009688;
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    header .navbar.nav-toggle{
+        top:6.4rem;
+    }
+    .home{
+    background: url("https://wallpapercave.com/wp/wp6119327.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+    .home h1{
+        font-size: 4rem;
+        padding: 1rem;
+        color: #000;
+        background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4));
+        margin: 5px;
+        border: 1px solid transparent;
+        border-radius: 3px ;
+    }
+
+    .home p{
+        width: auto;
+        color: black;
+        font-weight: bolder;
+        padding: 1rem;
+        background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4));
+        border: 1px solid transparent;
+        border-radius: 3px ;
+        
+    }
+
+    .contact .row .image{
+        display: none;
+    }
+
+}
+
+
+@media (max-device-width:500px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .contact .row form .box{
+        width:100%;
+    }
+
+}
+@media (max-width: 480px){
+  form .half{
+    flex-direction: column;
+  }
+  form .half .item{
+    width: 100%;
+  }
+  form .action{
+    display: flex;
+    flex-direction: column;
+  }
+  form .action input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
