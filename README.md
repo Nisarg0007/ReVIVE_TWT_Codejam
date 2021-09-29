@@ -1,6 +1,6 @@
 <h1>ReVIVE: <span>https://revive.n007.repl.co</span></h1>
 <p align="center">
-  <img width="200" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuXqYEK0fgbY6cpsxuBaHkiPxYZVMrorrYx9xBd_5L8BKptLl7tu-5uzx5dO6ETsdLLQ&usqp=CAU">
+  <img width="200" height="200" src="https://icon-library.com/images/revive-icon/revive-icon-18.jpg">
 </p>
 <h1 align="center">ReVIVE</h3>
 
