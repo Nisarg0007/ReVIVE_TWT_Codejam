@@ -1,47 +1,49 @@
-<h1>ReVIVE: <span>https://revive.n007.repl.co</span></h1>
-<p align="center">
-  <img width="200" height="200" src="https://icon-library.com/images/revive-icon/revive-icon-18.jpg">
-</p>
-<h1 align="center">ReVIVE</h3>
+# **ReVIVE – Tech With Tim Code Jam Winner(best project hosted on replit) 🏆**  
+*A Health & Wellness Web App built during Tech With Tim Code Jam, scoring the **highest in the judging round** and featured as the **Best Project on Replit**.*  
 
-  <h3 align="center">
-    Health is the new Normal..
-    <br />
-    <a href="https://revive.n007.repl.co/"><strong>Visit the website</strong></a>
-    
-</p>
-<br >
-<h2 align="center">Use the site</h2>
-<h3 align="center">Health is a state of complete harmony of the body, mind and spirit.So give all these to yourself by heading over to the <a href="https://revive.n007.repl.co/">website</a></h3>
-<br>
+[![Watch the Video](https://img.shields.io/badge/🎥-Watch_Demo-red?style=for-the-badge)](https://www.youtube.com/watch?v=sSW32VaBbNA)  
 
-## 1. Heading to the site
-```
-  Just head over to the site by pasting  this into your browser 👉 https://revive.n007.repl.co/ (preferably chrome)
-  Now you can start using the site for free without any login
-  ```
-## 2. Services
-```
-  You can use a simple BMI(Body mass Index) Calculator to know your BMI
-  The site also has a joke section where there are random unabusive jokes given on various topics
-  You can also play a simple quiz out there and your score is given
-  ```
-  ## 3. Game section
-```
-  There is a simple tic tac toe game in the site which you can play against computer
-  ```
-<h1 align="center">
-    Setting Up the project on your machine  
-</h1>
 
-### This is the easiest task of all. So, let's do it.
+---
 
-<br >
+## 📌 **About the Project**  
+**ReVIVE** is a fun and engaging **health & wellness web application** built with simplicity and creativity in mind.  
+It includes:  
+✅ **BMI Calculator** – Know your Body Mass Index instantly.  
+✅ **Fun Jokes Section** – Random, family-friendly jokes to keep you smiling.  
+✅ **Quiz Game** – Test your knowledge with a quick quiz.  
+✅ **Tic Tac Toe Game** – Play against the computer and relax.  
+
+---
+
+## 🏅 **Achievements**
+- 🥇 **Highest Score** in the judging round of [Tech With Tim Code Jam](https://www.techwithtim.net/).
+- 🏆 **Featured as the Best Project on Replit**.
+- 🔥 **Showcased in the Official YouTube Video**:  
+[![Official Video](https://img.shields.io/badge/🎬-YouTube_Demo-blue?style=for-the-badge)](https://www.youtube.com/watch?v=sSW32VaBbNA)
+
+---
+
+## 📸 **Winner Screenshots**
+
+### 🏆 Best Project On Replit Announcement
+![Best project on replit](ReVIVE_TWT6_CodeJam_Health/img/bestprojectonreplit.png)
+
+### 📊 Highest Score Highlight
+![Top Score](ReVIVE_TWT6_CodeJam_Health/img/topscore.png)
+
+---
+
+## 🚀 **Getting Started**
+### **Run Locally**
+```bash
+# Clone the repository
+git clone https://github.com/Nisarg0007/ReVIVE_TWT_Codejam.git
+
+# Open the project folder and double-click:
+index.html
 
 ```
-Simply just clone or unzip this repository
-Get all the files and folders into a new main folder(if they come scattered, or simply 👇 )
-Just click on index.html and your site is running
-```
-<h2>Creator</h2>
-Nisarg007
+### Creator
+Nisarg0007
+
